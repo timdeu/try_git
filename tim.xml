@@ -1,0 +1,180 @@
+﻿<error errorId="4cb8d212-b1b4-422a-a97e-2a937c6d3fc6" host="OWNEROR-0OLLELR" type="System.Web.HttpException" message="The server tag is not well formed." source="System.Web" detail="System.Web.HttpParseException (0x80004005): The server tag is not well formed. ---&gt; System.Web.HttpException (0x80004005): The server tag is not well formed.&#xD;&#xA;   at System.Web.UI.TemplateParser.ProcessError(String message)&#xD;&#xA;   at System.Web.UI.TemplateParser.DetectSpecialServerTagError(String text, Int32 textPos)&#xD;&#xA;   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)&#xD;&#xA;   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)&#xD;&#xA;   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)&#xD;&#xA;   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)&#xD;&#xA;   at System.Web.UI.TemplateParser.ParseInternal()&#xD;&#xA;   at System.Web.UI.TemplateParser.Parse()&#xD;&#xA;   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()&#xD;&#xA;   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)&#xD;&#xA;   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()&#xD;&#xA;   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()&#xD;&#xA;   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)&#xD;&#xA;   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)&#xD;&#xA;   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)&#xD;&#xA;   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)&#xD;&#xA;   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)&#xD;&#xA;   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)&#xD;&#xA;   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)&#xD;&#xA;   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()&#xD;&#xA;   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean&amp; completedSynchronously)" user="vvs@gmail.com" time="2012-06-19T22:32:56.7991019Z" statusCode="500" webHostHtmlMessage="&lt;html&gt;&#xD;&#xA;    &lt;head&gt;&#xD;&#xA;        &lt;title&gt;Parser Error&lt;/title&gt;&#xD;&#xA;        &lt;style&gt;&#xD;&#xA;         body {font-family:&quot;Verdana&quot;;font-weight:normal;font-size: .7em;color:black;} &#xD;&#xA;         p {font-family:&quot;Verdana&quot;;font-weight:normal;color:black;margin-top: -5px}&#xD;&#xA;         b {font-family:&quot;Verdana&quot;;font-weight:bold;color:black;margin-top: -5px}&#xD;&#xA;         H1 { font-family:&quot;Verdana&quot;;font-weight:normal;font-size:18pt;color:red }&#xD;&#xA;         H2 { font-family:&quot;Verdana&quot;;font-weight:normal;font-size:14pt;color:maroon }&#xD;&#xA;         pre {font-family:&quot;Lucida Console&quot;;font-size: .9em}&#xD;&#xA;         .marker {font-weight: bold; color: black;text-decoration: none;}&#xD;&#xA;         .version {color: gray;}&#xD;&#xA;         .error {margin-bottom: 10px;}&#xD;&#xA;         .expandable { text-decoration:underline; font-weight:bold; color:navy; cursor:hand; }&#xD;&#xA;        &lt;/style&gt;&#xD;&#xA;    &lt;/head&gt;&#xD;&#xA;&#xD;&#xA;    &lt;body bgcolor=&quot;white&quot;&gt;&#xD;&#xA;&#xD;&#xA;            &lt;span&gt;&lt;H1&gt;Server Error in '/' Application.&lt;hr width=100% size=1 color=silver&gt;&lt;/H1&gt;&#xD;&#xA;&#xD;&#xA;            &lt;h2&gt; &lt;i&gt;Parser Error&lt;/i&gt; &lt;/h2&gt;&lt;/span&gt;&#xD;&#xA;&#xD;&#xA;            &lt;font face=&quot;Arial, Helvetica, Geneva, SunSans-Regular, sans-serif &quot;&gt;&#xD;&#xA;&#xD;&#xA;            &lt;b&gt; Description: &lt;/b&gt;An error occurred during the parsing of a resource required to service this request.   Please review the following specific parse error details and modify your source file appropriately.&#xD;&#xA;            &lt;br&gt;&lt;br&gt;&#xD;&#xA;&#xD;&#xA;            &lt;b&gt; Parser Error Message: &lt;/b&gt;The server tag is not well formed.&lt;br&gt;&lt;br&gt;&#xD;&#xA;&#xD;&#xA;            &lt;b&gt;Source Error:&lt;/b&gt; &lt;br&gt;&lt;br&gt;&#xD;&#xA;&#xD;&#xA;            &lt;table width=100% bgcolor=&quot;#ffffcc&quot;&gt;&#xD;&#xA;               &lt;tr&gt;&#xD;&#xA;                  &lt;td&gt;&#xD;&#xA;                      &lt;code&gt;&lt;pre&gt;&#xD;&#xA;&#xD;&#xA;Line 200:                                        &amp;lt;div class=&amp;quot;fl controls&amp;quot; style=&amp;quot;&amp;quot; &amp;gt;&#xD;&#xA;Line 201:                                            &amp;lt;div class=&amp;quot;fl&amp;quot;&amp;gt;&#xD;&#xA;&lt;font color=red&gt;Line 202:                                                &amp;lt;asp:DropDownList ID=&amp;quot;ddlAction&amp;quot; runat=&amp;quot;server&amp;quot; AutoPostBack=&amp;quot;true&amp;quot; OnSelectedIndexChanged=&amp;quot;ddlAction_SelectedIndexChanged&amp;quot;&#xD;&#xA;&lt;/font&gt;Line 203:                                                    CssClass=&amp;quot;fl smalldropdown&amp;quot;  &amp;quot;&amp;gt;&#xD;&#xA;Line 204:                                                    &amp;lt;asp:ListItem Text=&amp;quot;Aktionen&amp;quot; Value=&amp;quot;0&amp;quot;&amp;gt;&amp;lt;/asp:ListItem&amp;gt;&lt;/pre&gt;&lt;/code&gt;&#xD;&#xA;&#xD;&#xA;                  &lt;/td&gt;&#xD;&#xA;               &lt;/tr&gt;&#xD;&#xA;            &lt;/table&gt;&#xD;&#xA;&#xD;&#xA;            &lt;br&gt;&#xD;&#xA;&#xD;&#xA;            &lt;b&gt; Source File: &lt;/b&gt; /RewardsSettings.aspx&lt;b&gt; &amp;nbsp;&amp;nbsp; Line: &lt;/b&gt; 202&#xD;&#xA;            &lt;br&gt;&lt;br&gt;&#xD;&#xA;&#xD;&#xA;    &lt;/body&gt;&#xD;&#xA;&lt;/html&gt;&#xD;&#xA;">
+  <serverVariables>
+    <item name="ALL_HTTP">
+      <value string="HTTP_CONNECTION:keep-alive&#xD;&#xA;HTTP_ACCEPT:text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#xD;&#xA;HTTP_ACCEPT_ENCODING:gzip, deflate&#xD;&#xA;HTTP_ACCEPT_LANGUAGE:de-de,de;q=0.8,en-us;q=0.5,en;q=0.3&#xD;&#xA;HTTP_COOKIE:ASP.NET_SessionId=z4prcf12g2g0mgc34vp10yf0; __utma=195616937.1467864208.1340145132.1340145132.1340145132.1; __utmb=195616937.1.10.1340145132; __utmc=195616937; __utmz=195616937.1340145132.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); Credential=UserId=WVsf90pV5BBEvfIF7q+/bg==&amp;UserType=hnigoP9TiPsuSEtcHnafUg==&amp;BusinessEmail=eyRAn3kKeoW/TPLkqT0O77r9N6j3rVuvgxiLAWXCjP0=&amp;IsSuperAdmin=up8p+DFoJ29wLKMe1vhMyw==; OnlineTrader=6E4076A60411B721B26BCEEFC79597DAD49542AC8FD8D161BE904CBA0065D09B9F04211D4B68942D30EFE5FFA071179C915CDC91543FFA0F2D8FAF7AB7981BE5912571CCDA0B24E1369BFFA9280422E3B5D1093007B4790DF4FAF20CA66294ADDCB4E28E2F435651A31F93A74444ED4B950B78B2C99289BFA0E573F080E8DB3144C7BFC30587F0275FDF7460216D99BA&#xD;&#xA;HTTP_HOST:46.4.92.251:8884&#xD;&#xA;HTTP_REFERER:http://46.4.92.251:8884/FriendsCode.aspx&#xD;&#xA;HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; WOW64; rv:10.0.2) Gecko/20100101 Firefox/10.0.2&#xD;&#xA;" />
+    </item>
+    <item name="ALL_RAW">
+      <value string="Connection: keep-alive&#xD;&#xA;Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#xD;&#xA;Accept-Encoding: gzip, deflate&#xD;&#xA;Accept-Language: de-de,de;q=0.8,en-us;q=0.5,en;q=0.3&#xD;&#xA;Cookie: ASP.NET_SessionId=z4prcf12g2g0mgc34vp10yf0; __utma=195616937.1467864208.1340145132.1340145132.1340145132.1; __utmb=195616937.1.10.1340145132; __utmc=195616937; __utmz=195616937.1340145132.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); Credential=UserId=WVsf90pV5BBEvfIF7q+/bg==&amp;UserType=hnigoP9TiPsuSEtcHnafUg==&amp;BusinessEmail=eyRAn3kKeoW/TPLkqT0O77r9N6j3rVuvgxiLAWXCjP0=&amp;IsSuperAdmin=up8p+DFoJ29wLKMe1vhMyw==; OnlineTrader=6E4076A60411B721B26BCEEFC79597DAD49542AC8FD8D161BE904CBA0065D09B9F04211D4B68942D30EFE5FFA071179C915CDC91543FFA0F2D8FAF7AB7981BE5912571CCDA0B24E1369BFFA9280422E3B5D1093007B4790DF4FAF20CA66294ADDCB4E28E2F435651A31F93A74444ED4B950B78B2C99289BFA0E573F080E8DB3144C7BFC30587F0275FDF7460216D99BA&#xD;&#xA;Host: 46.4.92.251:8884&#xD;&#xA;Referer: http://46.4.92.251:8884/FriendsCode.aspx&#xD;&#xA;User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:10.0.2) Gecko/20100101 Firefox/10.0.2&#xD;&#xA;" />
+    </item>
+    <item name="APPL_MD_PATH">
+      <value string="/LM/W3SVC/8/ROOT" />
+    </item>
+    <item name="APPL_PHYSICAL_PATH">
+      <value string="C:\Inetpub\vhosts\feedbreakdev.com\httpdocs\" />
+    </item>
+    <item name="AUTH_TYPE">
+      <value string="Forms" />
+    </item>
+    <item name="AUTH_USER">
+      <value string="vvs@gmail.com" />
+    </item>
+    <item name="AUTH_PASSWORD">
+      <value string="" />
+    </item>
+    <item name="LOGON_USER">
+      <value string="vvs@gmail.com" />
+    </item>
+    <item name="REMOTE_USER">
+      <value string="vvs@gmail.com" />
+    </item>
+    <item name="CERT_COOKIE">
+      <value string="" />
+    </item>
+    <item name="CERT_FLAGS">
+      <value string="" />
+    </item>
+    <item name="CERT_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SERIALNUMBER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CERT_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CONTENT_LENGTH">
+      <value string="0" />
+    </item>
+    <item name="CONTENT_TYPE">
+      <value string="" />
+    </item>
+    <item name="GATEWAY_INTERFACE">
+      <value string="CGI/1.1" />
+    </item>
+    <item name="HTTPS">
+      <value string="off" />
+    </item>
+    <item name="HTTPS_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="INSTANCE_ID">
+      <value string="8" />
+    </item>
+    <item name="INSTANCE_META_PATH">
+      <value string="/LM/W3SVC/8" />
+    </item>
+    <item name="LOCAL_ADDR">
+      <value string="46.4.92.251" />
+    </item>
+    <item name="PATH_INFO">
+      <value string="/RewardsSettings.aspx" />
+    </item>
+    <item name="PATH_TRANSLATED">
+      <value string="C:\Inetpub\vhosts\feedbreakdev.com\httpdocs\RewardsSettings.aspx" />
+    </item>
+    <item name="QUERY_STRING">
+      <value string="" />
+    </item>
+    <item name="REMOTE_ADDR">
+      <value string="46.4.92.251" />
+    </item>
+    <item name="REMOTE_HOST">
+      <value string="46.4.92.251" />
+    </item>
+    <item name="REMOTE_PORT">
+      <value string="64627" />
+    </item>
+    <item name="REQUEST_METHOD">
+      <value string="GET" />
+    </item>
+    <item name="SCRIPT_NAME">
+      <value string="/RewardsSettings.aspx" />
+    </item>
+    <item name="SERVER_NAME">
+      <value string="46.4.92.251" />
+    </item>
+    <item name="SERVER_PORT">
+      <value string="8884" />
+    </item>
+    <item name="SERVER_PORT_SECURE">
+      <value string="0" />
+    </item>
+    <item name="SERVER_PROTOCOL">
+      <value string="HTTP/1.1" />
+    </item>
+    <item name="SERVER_SOFTWARE">
+      <value string="Microsoft-IIS/7.5" />
+    </item>
+    <item name="URL">
+      <value string="/RewardsSettings.aspx" />
+    </item>
+    <item name="HTTP_CONNECTION">
+      <value string="keep-alive" />
+    </item>
+    <item name="HTTP_ACCEPT">
+      <value string="text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8" />
+    </item>
+    <item name="HTTP_ACCEPT_ENCODING">
+      <value string="gzip, deflate" />
+    </item>
+    <item name="HTTP_ACCEPT_LANGUAGE">
+      <value string="de-de,de;q=0.8,en-us;q=0.5,en;q=0.3" />
+    </item>
+    <item name="HTTP_COOKIE">
+      <value string="ASP.NET_SessionId=z4prcf12g2g0mgc34vp10yf0; __utma=195616937.1467864208.1340145132.1340145132.1340145132.1; __utmb=195616937.1.10.1340145132; __utmc=195616937; __utmz=195616937.1340145132.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); Credential=UserId=WVsf90pV5BBEvfIF7q+/bg==&amp;UserType=hnigoP9TiPsuSEtcHnafUg==&amp;BusinessEmail=eyRAn3kKeoW/TPLkqT0O77r9N6j3rVuvgxiLAWXCjP0=&amp;IsSuperAdmin=up8p+DFoJ29wLKMe1vhMyw==; OnlineTrader=6E4076A60411B721B26BCEEFC79597DAD49542AC8FD8D161BE904CBA0065D09B9F04211D4B68942D30EFE5FFA071179C915CDC91543FFA0F2D8FAF7AB7981BE5912571CCDA0B24E1369BFFA9280422E3B5D1093007B4790DF4FAF20CA66294ADDCB4E28E2F435651A31F93A74444ED4B950B78B2C99289BFA0E573F080E8DB3144C7BFC30587F0275FDF7460216D99BA" />
+    </item>
+    <item name="HTTP_HOST">
+      <value string="46.4.92.251:8884" />
+    </item>
+    <item name="HTTP_REFERER">
+      <value string="http://46.4.92.251:8884/FriendsCode.aspx" />
+    </item>
+    <item name="HTTP_USER_AGENT">
+      <value string="Mozilla/5.0 (Windows NT 6.1; WOW64; rv:10.0.2) Gecko/20100101 Firefox/10.0.2" />
+    </item>
+  </serverVariables>
+  <cookies>
+    <item name="ASP.NET_SessionId">
+      <value string="z4prcf12g2g0mgc34vp10yf0" />
+    </item>
+    <item name="__utma">
+      <value string="195616937.1467864208.1340145132.1340145132.1340145132.1" />
+    </item>
+    <item name="__utmb">
+      <value string="195616937.1.10.1340145132" />
+    </item>
+    <item name="__utmc">
+      <value string="195616937" />
+    </item>
+    <item name="__utmz">
+      <value string="195616937.1340145132.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)" />
+    </item>
+    <item name="Credential">
+      <value string="UserId=WVsf90pV5BBEvfIF7q+/bg==&amp;UserType=hnigoP9TiPsuSEtcHnafUg==&amp;BusinessEmail=eyRAn3kKeoW/TPLkqT0O77r9N6j3rVuvgxiLAWXCjP0=&amp;IsSuperAdmin=up8p+DFoJ29wLKMe1vhMyw==" />
+    </item>
+    <item name="OnlineTrader">
+      <value string="6E4076A60411B721B26BCEEFC79597DAD49542AC8FD8D161BE904CBA0065D09B9F04211D4B68942D30EFE5FFA071179C915CDC91543FFA0F2D8FAF7AB7981BE5912571CCDA0B24E1369BFFA9280422E3B5D1093007B4790DF4FAF20CA66294ADDCB4E28E2F435651A31F93A74444ED4B950B78B2C99289BFA0E573F080E8DB3144C7BFC30587F0275FDF7460216D99BA" />
+    </item>
+  </cookies>
+</error>
